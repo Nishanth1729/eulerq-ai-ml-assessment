@@ -1,0 +1,2 @@
+task2/dist/EulerQ_TextToSQL.exe filter=lfs diff=lfs merge=lfs -text
+task2/model/text-to-sql-small/*.safetensors filter=lfs diff=lfs merge=lfs -text

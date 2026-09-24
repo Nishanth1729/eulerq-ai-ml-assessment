@@ -1,0 +1,71 @@
+{
+  "select_all": [
+    "show all records",
+    "list all transactions",
+    "show me all rows",
+    "give me every transaction",
+    "list all entries",
+    "display all records",
+    "show every row"
+  ],
+  "filter_numeric_gt": [
+    "show records where {col} is greater than {num}",
+    "list rows with {col} above {num}",
+    "find transactions where {col} exceeds {num}",
+    "show entries with {col} more than {num}",
+    "which records have {col} over {num}"
+  ],
+  "filter_numeric_lt": [
+    "show records where {col} is below {num}",
+    "list rows with {col} less than {num}",
+    "find transactions where {col} is under {num}",
+    "show entries with {col} below {num}",
+    "which records have {col} less than {num}"
+  ],
+  "filter_categorical": [
+    "list all records with {val}",
+    "show transactions using {val}",
+    "find rows for {val}",
+    "show all transactions where the value is {val}",
+    "list entries done through {val}",
+    "which transactions are {val}"
+  ],
+  "aggregate_sum_filtered": [
+    "what is the total {col} for {val}",
+    "give me the sum of {col} where {val}",
+    "what is the total amount {val}",
+    "calculate total {col} across {val}",
+    "sum the {col} for {val}"
+  ],
+  "aggregate_count_filtered": [
+    "how many {val} transactions are there",
+    "count the {val} records",
+    "what is the number of {val} transactions",
+    "how many records are {val}",
+    "count transactions where the type is {val}"
+  ],
+  "groupby_sum_top1": [
+    "which {group} has the highest total {metric}",
+    "what {group} has the largest sum of {metric}",
+    "find the {group} with the highest total {metric}",
+    "which {group} has the most total {metric}"
+  ],
+  "order_desc_limit": [
+    "show the top {n} highest {metric}",
+    "list the {n} largest {metric} transactions",
+    "give me the highest {n} {metric} records",
+    "show {n} transactions with the largest {metric}"
+  ],
+  "groupby_avg": [
+    "what is the average {metric} for each {group}",
+    "show average {metric} by {group}",
+    "calculate the mean {metric} for every {group}",
+    "give me average {metric} grouped by {group}"
+  ],
+  "order_by_date_filtered": [
+    "list all {val} transactions sorted by date",
+    "show {val} records ordered by date",
+    "list {val} transactions by date",
+    "show all {val} transactions sorted by transaction date"
+  ]
+}

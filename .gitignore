@@ -1,0 +1,40 @@
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+
+# Python environments
+*.egg-info/
+
+# Temporary logs and local secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# Datasets / generated data — DO NOT COMMIT
+data/
+**/*.csv
+**/*.parquet
+**/*.xlsx
+**/*.xls
+
+# Submission archive
+*.zip
+
+# PyInstaller temporary build files
+task2/build/
+task2/build_*/
+task2/*.spec.bak
+
+# Keep final executable in Git LFS
+!task2/dist/
+!task2/dist/EulerQ_TextToSQL.exe
+
+# Other temporary files
+*.tmp
+*.bak

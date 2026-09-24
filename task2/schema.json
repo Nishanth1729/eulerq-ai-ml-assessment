@@ -1,0 +1,42 @@
+[
+  {
+    "name": "transaction_id",
+    "description": "Unique identifier for the transaction."
+  },
+  {
+    "name": "account_number",
+    "description": "Bank account number the transaction was posted against."
+  },
+  {
+    "name": "customer_name",
+    "description": "Name of the account holder."
+  },
+  {
+    "name": "transaction_date",
+    "description": "Date the transaction occurred (YYYY-MM-DD)."
+  },
+  {
+    "name": "transaction_type",
+    "description": "Whether the transaction was a Credit or a Debit."
+  },
+  {
+    "name": "amount",
+    "description": "Transaction amount."
+  },
+  {
+    "name": "balance_after_transaction",
+    "description": "Account balance immediately after this transaction was applied."
+  },
+  {
+    "name": "merchant_category",
+    "description": "Category of the merchant/transaction, e.g. Groceries, Salary, Fuel, Transfer."
+  },
+  {
+    "name": "branch_code",
+    "description": "Code of the bank branch that processed the transaction."
+  },
+  {
+    "name": "payment_mode",
+    "description": "Channel used: UPI / NEFT / IMPS / Card / Cash / Cheque."
+  }
+]

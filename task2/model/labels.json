@@ -1,0 +1,12 @@
+[
+  "select_all",
+  "filter_numeric_gt",
+  "filter_numeric_lt",
+  "filter_categorical",
+  "aggregate_sum_filtered",
+  "aggregate_count_filtered",
+  "groupby_sum_top1",
+  "order_desc_limit",
+  "groupby_avg",
+  "order_by_date_filtered"
+]
